@@ -12,4 +12,4 @@ Real time chat application with node.js express, socket.io
 
 # Project Link
 
--https://realtime.dhilshad.xyz
+https://realtime.dhilshad.xyz
