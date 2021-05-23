@@ -28,6 +28,10 @@ io.on('connection', socket =>{
     
         socket.broadcast.to(user.room).emit('message',formatMessage(botName,`${user.username} has joined the chat`));
 
+        socket.on('typing',(data)=>{
+            socket.broadcast.to(user.room).emit('typing',data)
+        })
+
         io.to(user.room).emit('roomUsers',{
             room:user.room,
             users:getRoomUsers(user.room)
