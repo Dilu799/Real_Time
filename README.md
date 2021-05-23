@@ -9,6 +9,7 @@ Real time chat application with node.js express, socket.io
   - Everyone in the room can chat with text messages
   - Name of persons in the current room is displayed to everyone
   - User can leave room when ever they want
+  - When a user types the message others will get the typing alert displayed on their screens
 
 # Project Link
 
